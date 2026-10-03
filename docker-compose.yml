@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  csce-5150:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8888:8888
+    volumes:
+      - ./:/app
+    networks:
+      - csce-5150-net
+
+networks:
+  csce-5150-net:
+    driver: bridge
+
+volumes:
+  pgdata:

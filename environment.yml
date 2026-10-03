@@ -1,0 +1,13 @@
+name: csce-5150
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - matplotlib
+  - pandas
+  - python=3.12.7
+  - jupyter
+  - seaborn
+  - tqdm
