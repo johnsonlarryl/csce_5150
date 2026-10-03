@@ -58,10 +58,6 @@ Programming assignments may use Python and Jupyter notebooks where appropriate.
 
 The repository can be used to organize implementations, homework exercises, study materials, and examples related to the algorithms covered throughout the course.
 
-### Prerequisites
-
-1```
-
 ## Recommended Textbooks
 
 * Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. **Introduction to Algorithms**, 3rd ed.
