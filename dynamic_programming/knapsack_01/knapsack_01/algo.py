@@ -1,4 +1,6 @@
-def knapsack(weights, profits, capacity):
+from typing import List, Tuple
+
+def knapsack(weights: int, profits: List[int], capacity: int) -> Tuple[int, int]:
     n = len(weights)
     dp = [[0] * (capacity + 1) for _ in range(n + 1)]
 
@@ -94,4 +96,4 @@ def knapsack(weights, profits, capacity):
     print(f"\nTotal Weight: {total_weight}")
     print(f"Maximum Profit: {total_profit}")
 
-    return dp[n][capacity], selected_items
+    return selected_items, total_profit
